@@ -123,13 +123,6 @@ div.verbatim pre.sourceCode {
 }
 
 
-/* external link icons */
-a[target="_blank"]::after {
-  margin: 0 3px 0 5px;
-  font-weight: 900;
-  font-family:"bootstrap-icons";
-  content:"\F1C5";
-}
 
 /* mac and PC icons */
 mac, pc {
