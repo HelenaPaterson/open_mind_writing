@@ -36,7 +36,7 @@ book:
     right: ''
   chapters:
   - index.qmd
-  - instructions.qmd
+  - chapter1.qmd
   appendices:
   - references.qmd
   - webexercises.qmd
