@@ -1,0 +1,69 @@
+project:
+  type: book
+  output-dir: docs
+  resources: resources
+execute:
+  freeze: auto
+book:
+  title: Writing with an open mind
+  subtitle: A short course in report writing for psychologists
+  author: Helena Paterson, James Bartlett and Phil McAleer
+  description: This book is a collection of tutorials that we have developed to support
+    our students in writing research reports
+  cover-image: images/logos/logo.png
+  image: images/logos/logo.png
+  favicon: images/logos/logo.png
+  cookie-consent: false
+  google-analytics: G-6NP3MF25W3
+  page-navigation: true
+  search: true
+  repo-url: https://github.com/HelenaPaterson/open_mind_writing
+  repo-branch: main
+  repo-actions:
+  - edit
+  - issue
+  - source
+  downloads:
+  - pdf
+  - epub
+  sharing:
+  - twitter
+  - facebook
+  - linkedin
+  margin-header: ''
+  page-footer:
+    left: CC-BY 2023 , PsyTeachR
+    right: ''
+  chapters:
+  - index.qmd
+  - instructions.qmd
+  appendices:
+  - references.qmd
+  - webexercises.qmd
+bibliography: include/references.bib
+csl: include/apa.csl
+format:
+  html:
+    theme:
+      light:
+      - flatly
+      - include/light.scss
+      dark:
+      - darkly
+      - include/dark.scss
+    css:
+    - https://use.fontawesome.com/releases/v5.13.0/css/all.css
+    - include/booktem.css
+    - include/glossary.css
+    - include/style.css
+    - open_mind_writing/include/webex.css
+    df-print: kable
+    code-link: true
+    code-fold: false
+    code-line-numbers: true
+    code-overflow: wrap
+    code-copy: hover
+    highlight-style: a11y
+    include-after-body:
+    - include/script.js
+    - open_mind_writing/include/webex.js
