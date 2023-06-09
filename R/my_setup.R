@@ -3,8 +3,8 @@
 if (requireNamespace("knitr", quietly = TRUE)) {
 
   library(glossary)
-  glossary::glossary_path("include/glossary.yml")
-  glossary_popup("click") # "click", "hover" or "none"
+  glossary::glossary_path("psyteachr")
+  glossary_popup("hover") # "click", "hover" or "none"
 
   # default knitr options ----
   knitr::opts_chunk$set(
